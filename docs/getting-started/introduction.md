@@ -13,6 +13,8 @@ StackToIT is a command-line tool for planning infrastructure migration to STACKI
 | Azure | Terraform or OpenTofu root module | Preview |
 | VMware | RVTools export (`.xlsx` or CSV directory) | Preview |
 | Google Cloud | Terraform or OpenTofu root module | Experimental |
+| Huawei Cloud | Terraform or OpenTofu root module, core services, no Terraform draft yet | Experimental |
+| Alibaba Cloud | Terraform or OpenTofu root module, core services, no Terraform draft yet | Experimental |
 
 A StackToIT SourceBundle created by the `bundle` command can hold a root module for assessment on another machine. `stacktoit version` states the input maturity of your build.
 
