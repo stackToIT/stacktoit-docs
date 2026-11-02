@@ -7,7 +7,7 @@ Start at [docs/index.md](docs/index.md). Every page is plain Markdown and its li
 | Folder | Content |
 | --- | --- |
 | [`docs/getting-started`](docs/getting-started) | Introduction, installation, quickstart, first assessment |
-| [`docs/guides`](docs/guides) | AWS to STACKIT, reviewing decisions, offline environments |
+| [`docs/guides`](docs/guides) | AWS, Azure, Google Cloud and VMware to STACKIT, reviewing decisions, offline environments |
 | [`docs/concepts`](docs/concepts) | Migration workflow, source inputs, classifications, outputs |
 | [`docs/configuration`](docs/configuration) | `stacktoit.yaml`, design inputs and decisions, application mapping |
 | [`docs/cli`](docs/cli) | Every command, its options and the exit codes |
