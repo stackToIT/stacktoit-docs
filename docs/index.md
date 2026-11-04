@@ -15,6 +15,7 @@ StackToIT reads infrastructure definitions, assesses their migration to STACKIT,
 - [VMware to STACKIT](guides/vmware-to-stackit.md): go from an RVTools export to a migration package.
 - [Huawei Cloud to STACKIT](guides/huawei-cloud-to-stackit.md): go from a Huawei Cloud Terraform root module to a migration plan.
 - [Alibaba Cloud to STACKIT](guides/alibaba-cloud-to-stackit.md): go from an Alibaba Cloud Terraform root module to a migration plan.
+- [Oracle Cloud to STACKIT](guides/oracle-cloud-to-stackit.md): go from an Oracle Cloud Terraform root module to a migration plan.
 
 ## Reference
 
