@@ -3,7 +3,7 @@ title: Google Cloud to STACKIT
 description: Assess a Google Cloud Terraform environment and prepare its STACKIT migration plan.
 ---
 
-This guide describes the path from a Google Cloud Terraform estate to a reviewable STACKIT migration package. Google Cloud input maturity is stated in [Supported source formats](../getting-started/introduction.md); run `stacktoit version` to see it for your build.
+This guide describes the path from a Google Cloud Terraform estate to a reviewable STACKIT migration package.
 
 ## Assess the Terraform estate
 

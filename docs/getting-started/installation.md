@@ -47,7 +47,7 @@ The archive holds three executables. Keep them together in one directory, anywhe
 | `stacktoit-prices` | Optional retrieval of public price data |
 | `stacktoit-discover` | Optional AWS inventory collection using your AWS CLI |
 
-The `version` command prints the binary, knowledge-base, schema and provider versions, and the input maturity of the build. Use these details when reviewing an assessment or contacting support.
+The `version` command prints the binary, knowledge-base, schema and provider versions. Use these details when reviewing an assessment or contacting support.
 
 ## Optional tools
 

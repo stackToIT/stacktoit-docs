@@ -7,19 +7,19 @@ StackToIT is a command-line tool for planning infrastructure migration to STACKI
 
 ## Supported source formats
 
-| Source | Input | Maturity |
-| --- | --- | --- |
-| AWS | Terraform or OpenTofu root module | Primary |
-| Azure | Terraform or OpenTofu root module | Preview |
-| VMware | RVTools export (`.xlsx` or CSV directory) | Preview |
-| Google Cloud | Terraform or OpenTofu root module | Experimental |
-| Huawei Cloud | Terraform or OpenTofu root module, core services, no Terraform draft yet | Experimental |
-| Alibaba Cloud | Terraform or OpenTofu root module, core services, no Terraform draft yet | Experimental |
-| Oracle Cloud | Terraform or OpenTofu root module, core services, no Terraform draft yet | Experimental |
+| Source | Input |
+| --- | --- |
+| AWS | Terraform or OpenTofu root module |
+| Azure | Terraform or OpenTofu root module |
+| VMware | RVTools export (`.xlsx` or CSV directory) |
+| Google Cloud | Terraform or OpenTofu root module |
+| Huawei Cloud | Terraform or OpenTofu root module |
+| Alibaba Cloud | Terraform or OpenTofu root module |
+| Oracle Cloud | Terraform or OpenTofu root module |
 
-A StackToIT SourceBundle created by the `bundle` command can hold a root module for assessment on another machine. `stacktoit version` states the input maturity of your build.
+A StackToIT SourceBundle created by the `bundle` command can hold a root module for assessment on another machine.
 
-The assessment records each resource's proposed treatment and explains differences and decisions. Target output includes a STACKIT Terraform draft where appropriate and a structured migration execution package. Coverage varies by source provider and service; inspect the stated differences and all generated target network-access settings before deployment.
+The assessment records each resource's proposed treatment and explains differences and decisions. Target output includes a STACKIT Terraform draft where appropriate and a structured migration execution package. Inspect the stated differences and all generated target network-access settings before deployment.
 
 ## What you receive
 

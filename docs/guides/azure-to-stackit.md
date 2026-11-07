@@ -3,7 +3,7 @@ title: Azure to STACKIT
 description: Assess an Azure Terraform environment and prepare its STACKIT migration plan.
 ---
 
-This guide describes the path from an Azure Terraform estate to a reviewable STACKIT migration package. Azure input maturity is stated in [Supported source formats](../getting-started/introduction.md); run `stacktoit version` to see it for your build.
+This guide describes the path from an Azure Terraform estate to a reviewable STACKIT migration package.
 
 ## Assess the Terraform estate
 

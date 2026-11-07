@@ -3,7 +3,7 @@ title: Huawei Cloud to STACKIT
 description: Assess a Huawei Cloud Terraform environment and prepare its STACKIT migration plan.
 ---
 
-This guide describes the path from a Huawei Cloud Terraform estate to a reviewable STACKIT migration plan. Huawei Cloud input maturity is stated in [Supported source formats](../getting-started/introduction.md); run `stacktoit version` to see it for your build.
+This guide describes the path from a Huawei Cloud Terraform estate to a reviewable STACKIT migration package.
 
 ## Assess the Terraform estate
 
@@ -15,7 +15,7 @@ StackToIT reads Terraform and OpenTofu root modules that use the `huaweicloud/hu
 
 ## Understand what this adapter covers
 
-The adapter gives the core services below a [classification](../concepts/classifications.md), a proposed target and a reason. It does not write STACKIT Terraform for this source yet. Any other Huawei Cloud resource is classified `MANUAL_REVIEW`, for your architects to decide.
+The adapter gives the core services below a [classification](../concepts/classifications.md), a proposed target and a reason. StackToIT writes a STACKIT Terraform draft for your architects to review. Any other Huawei Cloud resource is classified `MANUAL_REVIEW`, for your architects to decide.
 
 | Huawei Cloud | STACKIT target | Classification |
 | --- | --- | --- |

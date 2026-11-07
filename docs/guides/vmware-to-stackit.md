@@ -3,7 +3,7 @@ title: VMware to STACKIT
 description: Assess a VMware RVTools export and prepare its STACKIT migration plan.
 ---
 
-This guide describes the path from a VMware RVTools export to a reviewable STACKIT migration package. VMware input maturity is stated in [Supported source formats](../getting-started/introduction.md); run `stacktoit version` to see it for your build.
+This guide describes the path from a VMware RVTools export to a reviewable STACKIT migration package.
 
 ## Assess the export
 

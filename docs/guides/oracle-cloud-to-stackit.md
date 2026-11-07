@@ -3,7 +3,7 @@ title: Oracle Cloud to STACKIT
 description: Assess an Oracle Cloud Infrastructure Terraform environment and prepare its STACKIT migration plan.
 ---
 
-This guide describes the path from an Oracle Cloud Infrastructure (OCI) Terraform estate to a reviewable STACKIT migration plan. Oracle Cloud input maturity is stated in [Supported source formats](../getting-started/introduction.md); run `stacktoit version` to see it for your build.
+This guide describes the path from an Oracle Cloud Infrastructure (OCI) Terraform estate to a reviewable STACKIT migration package.
 
 ## Assess the Terraform estate
 
@@ -17,7 +17,7 @@ The mappings below were checked against version 9.11.0 of the `oracle/oci` provi
 
 ## Understand what this adapter covers
 
-The adapter gives the core services below a [classification](../concepts/classifications.md), a proposed target and a reason. It does not write STACKIT Terraform for this source yet: the `terraform/` folder holds only the provider and variable files, and every unit is left for your architects. Any other Oracle Cloud resource is classified `MANUAL_REVIEW`, for your architects to decide.
+The adapter gives the core services below a [classification](../concepts/classifications.md), a proposed target and a reason. StackToIT writes a STACKIT Terraform draft for your architects to review. Any other Oracle Cloud resource is classified `MANUAL_REVIEW`, for your architects to decide.
 
 | Oracle Cloud | STACKIT target | Classification |
 | --- | --- | --- |
